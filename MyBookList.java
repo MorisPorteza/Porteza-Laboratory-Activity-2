@@ -1,18 +1,18 @@
 public class MyBookList {
     public static void main(String[] args) {
+        
         // 1.) Create the following books that contains the title, author, year published. Use the Book class for this part.
         //      Rich Dad Poor Dad, Robert Kiyosaki, 1997
         //      The Power of Habit, Charles Duhigg, 2012
         //      Atomic Habits, James Clear, 2018
         //      Java Programming, John Doe, 2020
         //      Add your own favorite book
-
         Book book1 = new Book("Rich Dad Poor Dad", "Robert Kiyosaki", 1997);
         Book book2 = new Book("The Power of Habit", "Charles Duhigg", 2012);
         Book book3 = new Book("Atomic Habits", "James Clear", 2018);
         Book book4 = new Book("Java Programming", "John Doe", 2020);
-        // It's so hard to choose just one, but I'll have to go with this one!
-        // "Me quota ang pag- ibig. Sa bawat limang umiibig, isa lang ang magiging maligaya."
+        // It's so hard to choose just one because I have so many favorite books, but I'll have to go with "Para Kay B" by Ricky Lee. 
+        // "May quota ang pag-ibig. Sa bawat limang umiibig, isa lang ang magiging maligaya."
         Book book5 = new Book("Para Kay B", "Ricky Lee", 2008);
 
         // 2.) Display the details of each book using the displayDetails method.
@@ -42,7 +42,7 @@ public class MyBookList {
 
         // 6.) Create an array of Book objects to store all the books you created. Loop through the array and display the title of the books published after 2010.
         Book[] books = { book1, book2, book3, book4, book5 };
-        System.out.println("\n═══════ 𝑩𝒐𝒐𝒌𝒔 𝒑𝒖𝒃𝒍𝒊𝒔𝒉𝒆𝒅 𝒂𝒇𝒕𝒆𝒓 𝟐𝟎𝟏𝟎 ═══════");
+        System.out.println("\n═══════ 𝑩𝒐𝒐𝒌𝒔 𝑷𝒖𝒃𝒍𝒊𝒔𝒉𝒆𝒅 𝒂𝒇𝒕𝒆𝒓 𝟐𝟎𝟏𝟎 ═══════");
         for (Book b : books) {
             if (b.getYearPublished() > 2010) {
                 System.out.println("───⊱ " + b.getTitle());
@@ -50,4 +50,3 @@ public class MyBookList {
         }
     }
 }
-

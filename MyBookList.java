@@ -1,6 +1,5 @@
 public class MyBookList {
     public static void main(String[] args) {
-        
         // 1.) Create the following books that contains the title, author, year published. Use the Book class for this part.
         //      Rich Dad Poor Dad, Robert Kiyosaki, 1997
         //      The Power of Habit, Charles Duhigg, 2012
@@ -50,3 +49,4 @@ public class MyBookList {
         }
     }
 }
+

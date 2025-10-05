@@ -50,3 +50,18 @@ public class MyBookList {
     }
 }
 
+// Submitted by: Porteza, Moris L. (BSCS-2D)
+
+// AI Prompt:
+// You are a Java programmer. You are tasked with making a book list that will demonstrate how to instantiate and manipulate a class, as well as how to use properties, constructors, and methods in Java.
+// I will provide six instructions one by one throughout our conversation. Please follow the instructions carefully and generate two Java files: "MyBookList.java" and "Book.java". 
+// Make sure that the code compiles and runs correctly. Each time I give an instruction for a specific number, you must implement it properly in the code and update the existing program so that it grows feature by feature.
+// At the end of your response, provide a clear explanation not only about the functionality but also about the Java programming concepts applied. 
+// Make the explanation easy to understand, even for a beginner programmer like me.
+
+// AI Model: GPT-5 (ChatGPT)
+
+// Transaction ID: https://chatgpt.com/share/68e2926d-6034-8013-9acb-e0677b356b85
+
+// Text style generated using: https://boldtext.online/
+// Line art sourced from: https://emojicombos.com/border

@@ -9,7 +9,7 @@ public class Book {
         this.title = title;
         this.author = author;
         this.yearPublished = yearPublished;
-        this.currentPage = 0; // default
+        this.currentPage = 0; 
     }
 
     // Getters
@@ -26,7 +26,7 @@ public class Book {
         return currentPage;
     }
 
-    // Setter for author (used in the assignment)
+    // Setter for author
     public void setAuthor(String author) {
         this.author = author;
     }
@@ -40,7 +40,7 @@ public class Book {
         this.currentPage = page;
     }
 
-    // Display details method (used in the assignment)
+    // Display details method
     public void displayDetails() {
         System.out.println("Title: " + title +
                            ", Author: " + author +
